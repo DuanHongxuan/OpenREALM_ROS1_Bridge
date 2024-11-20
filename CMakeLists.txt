@@ -33,7 +33,9 @@ list(APPEND CMAKE_INCLUDE_PATH "/usr/local/include")
 ################################################################################
 # Options
 ################################################################################
-
+set(FBOW_INCLUDE_DIRS "/usr/local/include")
+set(FBOW_LIBS "/usr/local/lib/libfbow.so")
+find_package(fbow REQUIRED)
 
 ################################################################################
 # Compiler specific configuration

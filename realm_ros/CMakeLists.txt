@@ -35,7 +35,7 @@ endif()
 ################################################################################
 # Dependencies
 ################################################################################
-
+find_package(fbow REQUIRED)
 
 find_package(catkin REQUIRED COMPONENTS
         roscpp
